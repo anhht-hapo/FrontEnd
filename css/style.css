@@ -91,9 +91,14 @@ button {
 
 .content {
 }
-.today {
+section {
   box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
   min-height: 661px;
+}
+
+.today img {
+  margin-left: 181px;
+  margin-top: 51px;
 }
 .couser 
 {
@@ -159,20 +164,9 @@ button {
   margin-top: 40px;
   text-align: justify;
 }
-
-.daily {
-  width: 86%;
-  margin: auto;
-  clear: both;
-}
-.daily .image-demo {
-  float: right;
-  width: 46%;
-}
-
-.daily .couser {
-  float: left;
-  width: 46%;
+.daily img {
+  margin-left: 78px;
+  margin-top: 12px;
 }
 .banner {
   	background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
@@ -221,51 +215,64 @@ button {
   font-weight: 300;	
   line-height: 63px;
 }
-.banner-customer .customers-image .customer
+
+.banner-customer .customer 
 {
-  width: 10,5%;
+  padding-left: 363px;
+  padding-right: 363px;
+  width: 100%;
+}
+
+.banner-customer .customer .avatar {
   float: left;
-  margin-left: 1%;
-  margin-right: 1%;
+  width:150px;
+}
+
+.banner-customer .customer .avatar p:first-child
+{
   color: #FFFFFF;	
-  font-family: "Roboto", sans-serif;	
+  font-family: Roboto;	
+  font-size: 13px;	
+  font-weight: 300;	
+  line-height: 13px;	
+  text-align: center;
+}
+.banner-customer .customer .avatar p:last-child
+{
+  color: #FFFFFF;	
+  font-family: Roboto;	
   font-size: 10px;	
   font-weight: 300;	
   line-height: 13px;	
   text-align: center;
 }
-.banner-customer .customers-image .customer .avatar
-{
 
+.slogan {
+  clear: both;
+  margin-top: 86px;
+  margin-left: 586px;
+  margin-right: 584px;
 }
-.banner-customer .customers-image
-{
-  width: 70%;
-  margin: auto;
+
+.slogan p {
+  color: #FFFFFF;	
+  font-family: "Roboto",sans-serif;	
+  font-size: 18px;	
+  font-weight: 300;	
+  line-height: 30px;
+  text-align: justify;  
 }
-.banner-customer .slogan {
-  width: 60%;
-  margin: auto;
-}
-.banner-customer .slogan p 
-{
+
+.slogan i:first-child {
     color: #FFFFFF;	
-    font-family: "Roboto", sans-serif;	
-    font-size: 18px;	
-    font-weight: 300;	
-    line-height: 30px;	
+    font-family: themify;	
+    font-size: 72px;	
+    line-height: 73px;	
     text-align: justify;
 }
-.banner-customer .slogan i
-{
-  opacity: 0.4;	
-  color: #FFFFFF;	
-  font-family: themify;	
-  font-size: 72px;	
-  line-height: 73px;	
-  text-align: justify;
-  
-}
+
+
+
 footer {
   border: 1px solid #ECEFF1;	
   background-color: #39474E;	
@@ -450,3 +457,9 @@ ul.list_todo li {
   font-weight: 300;
   line-height: 19px;
 }
+
+.project img 
+{
+  margin-top: 34px;
+}
+
