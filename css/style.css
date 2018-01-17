@@ -2,64 +2,451 @@
     font-family: Enso;
     src: url(../font/enso.ttf);
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family="Roboto", sans-serif');
 
-.rectagle
+header 
 {
-  height: 1063px;	
+  padding-top: 51px;
+  min-height: 876px;
   width: 100%;
   background-image: url("../img/Rectangle.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.login 
-{
-    display: inline;
+.login {
+  margin-bottom: 190px;
 }
-.rectagle-2
-{
-  height: 36px;	
-  width: 82px;	
-  border: 2px solid #8BC34A;	
-  border-radius: 100px;
-}
-
-.sign-in
-{
-  height: 16px;	
-  width: 70px;	
-  color: #8BC34A;	
-  font-family: Roboto;	
+.login .about-us {
+  margin-left: 70%;
+  margin-right: 1.98%;
+  color: #283238;	
+  font-family: "Roboto", sans-serif;	
   font-size: 12px;	
   font-weight: 500;	
   letter-spacing: 1px;	
   line-height: 16px;
-  margin: 10px 16px;
+  background: none;
+  border: 0;
+}
+.login .sign-in {
+  border: 2px solid #8BC34A;	
+  border-radius: 100px;
+  color: #8BC34A;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 12px;	
+  font-weight: 500;	
+  letter-spacing: 1px;	
+  line-height: 16px;
+  padding: 10px 15px;
+  background: none;
+}
+.icon-container {
+  margin-bottom: 53px;
+  margin-top: 53px;
 }
 
-.about-us 
-{	
-    margin: 0px 1443px 0px 10px;
+.icon-container .icon {
+  text-align: center;
+  color: #283238;	
+  float: left;
+  width: 33.33%;
 }
 
-.hapo-erp 
-{	
-    
+.icon-container .icon [class^="ti-"]
+{
+  font-family: themify;	
+  font-size: 48px;	
+  letter-spacing: 4px;	
+  line-height: 48px;
 }
-.start-now {	
-  height: 60px;	
-  width: 225px;	
-  border-radius: 100px;	
-  background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-  color: #FFFFFF;
-  padding: 18px 55px;
-  font-family: Roboto;
-  font-size: 18px;
-  font-weight: 500;
-  text-transform: uppercase;
+.icon-container .icon p {
+  color: #283238;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 36px;	
+  font-weight: 300;	
+  line-height: 48px;
 }
-[class^=ti-] {
-    font-size: 48px;
-    color: #283238;
+
+.hapo-erp {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.button-start {
+    padding: 18px 56px;
+    border-radius: 100px;	
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    color: #FFFFFF;	
+    font-family: "Roboto", sans-serif;	
+    font-size: 18px;	
+    font-weight: 500;
+    letter-spacing: 1px;	
+    line-height: 24px;
+}
+button {
+  cursor: pointer;
+}
+
+.content {
+}
+.today {
+  box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+  min-height: 661px;
+}
+.couser 
+{
+  margin-right: 390px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  margin-top: 130px;
+}
+.couser h1 {
+  color: #444444;	  
+  font-size: 48px; 
+  font-weight: 300;
+  line-height: 63px;
+
+}
+
+.couser em {
+  font-size: 14px;
+  color: #283238;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.couser p {
+  font-size: 13px;
+  color: #283238;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.daily_report 
+{
+  margin-left: 390px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  margin-top: 130px;
+}
+.daily_report h1 {
+  color: #444444;	  
+  font-size: 48px; 
+  font-weight: 300;
+  line-height: 63px;
+
+}
+
+.daily_report em {
+  font-size: 14px;
+  color: #283238;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.daily_report p {
+  font-size: 13px;
+  width: 457px;
+  color: #283238;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.daily {
+  width: 86%;
+  margin: auto;
+  clear: both;
+}
+.daily .image-demo {
+  float: right;
+  width: 46%;
+}
+
+.daily .couser {
+  float: left;
+  width: 46%;
+}
+.banner {
+  	background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+    width: 100%;
+    clear: both;
+    background-color: #429321;
+}
+
+.banner .logo-container
+{
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+
+.banner .logo-container .big-logo
+{
+  padding: 30px;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2.5px solid #123;
+}
+
+.banner .logo-container .small-logo
+{
+  position: absolute;
+  box-sizing: border-box;	
+  border: 2.5px solid #FFFFFF;
+  background-color: #7CB342;
+}
+
+.banner-customer 
+{
+  background: url("../img/Rectangle 3.jpg");
+  min-height: 544px;
+  background-color: rgba(40,50,56,0.9);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.banner-customer h1 {
+  color: #FFFFFF;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 48px;	
+  font-weight: 300;	
+  line-height: 63px;
+}
+.banner-customer .customers-image .customer
+{
+  width: 10,5%;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: #FFFFFF;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 10px;	
+  font-weight: 300;	
+  line-height: 13px;	
+  text-align: center;
+}
+.banner-customer .customers-image .customer .avatar
+{
+
+}
+.banner-customer .customers-image
+{
+  width: 70%;
+  margin: auto;
+}
+.banner-customer .slogan {
+  width: 60%;
+  margin: auto;
+}
+.banner-customer .slogan p 
+{
+    color: #FFFFFF;	
+    font-family: "Roboto", sans-serif;	
+    font-size: 18px;	
+    font-weight: 300;	
+    line-height: 30px;	
+    text-align: justify;
+}
+.banner-customer .slogan i
+{
+  opacity: 0.4;	
+  color: #FFFFFF;	
+  font-family: themify;	
+  font-size: 72px;	
+  line-height: 73px;	
+  text-align: justify;
+  
+}
+footer {
+  border: 1px solid #ECEFF1;	
+  background-color: #39474E;	
+  box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+  padding-top: 45px;
+  padding-bottom: 54px;
+  
+}
+
+.single-widget {
+  text-align: left;
+  
+}
+
+.single-widget ul
+{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.single-widget ul li a
+{
+  color: #D0D8DC;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 10px;	
+  font-weight: 500;	
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.single-widget h2
+{
+  color: #8BC34A;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 13px;	
+  font-weight: 500;	
+  line-height: 18px;
+}
+
+.single-widget-main h2 {
+  color: #AED581;
+  font-family: Enso;	
+  font-size: 24px;	
+  line-height: 29px;
+  margin: 0px;
+}
+
+.single-icon {
+  margin-top: 54px;
+  color: #8BC34A;
+}
+
+.single-icon ul {
+  list-style: none;
+}
+
+.single-icon li {
+  display: inline;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.container {
+  width: 60%;
+  margin: auto; 
+}
+
+.row {
+  overflow: hidden;
+}
+
+.row::after {
+  clear: both;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.67%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.67%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.67%;
+}
+.col-12 {
+  width: 100%;
+}
+
+
+.feature
+{ 
+  background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+}
+
+.single-feature .icon 
+{
+s  box-sizing: border-box;
+  float:left;
+  height: 109.5px;
+  width: 20%;
+  float: left;
+  border: 2.5px solid #FFFFFF ;
+  border-radius: 50%;
+  margin-left: 35%;
+  margin-right: 30%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.single-feature .number 
+{
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+ul.list_todo {
+  list-style: none;
+}
+
+ul.list_todo li {
+  margin-top: 17px;
+  color: #283238;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 13px;	
+  line-height: 24px;	
+  text-align: justify;
+}
+
+.group .oval {
+    box-sizing: border-box;	
+    height: 109.5px;	
+    width: 109.5px;	
+    border-radius: 100%;    
+    border: 2.5px solid #FFFFFF;
+}
+
+.member_info 
+{
+  margin-left: 390px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  margin-top: 130px;
+}
+.member_info h1 {
+  color: #444444;	  
+  font-size: 48px; 
+  font-weight: 300;
+  line-height: 63px;
+
+}
+
+.member_info em {
+  font-size: 14px;
+  color: #283238;
+  font-weight: 300;
+  line-height: 19px;
 }
