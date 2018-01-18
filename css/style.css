@@ -2,6 +2,7 @@
   font-family: Enso;
   src: url(../font/enso.ttf);
 }
+
 @import url('https://fonts.googleapis.com/css?family="Roboto", sans-serif');
 
 header 
@@ -13,10 +14,12 @@ header
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .login
 {
   margin-bottom: 190px;
 }
+
 .login .about-us
 {
   margin-left: 70%;
@@ -30,6 +33,7 @@ header
   background: none;
   border: 0;
 }
+
 .login .sign-in 
 {
   border: 2px solid #8BC34A;	
@@ -43,6 +47,7 @@ header
   padding: 10px 15px;
   background: none;
 }
+
 .icon-container 
 {
   margin-bottom: 53px;
@@ -105,14 +110,10 @@ button
   cursor: pointer;
 }
 
-.content 
-{
-}
 section 
 {
   box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
-  min-height: 661px;
-  max-height: 661px;
+  height: 661px;
   overflow: hidden; 
   box-sizing: border-box;
 }
@@ -122,6 +123,7 @@ section
   margin-left: 19.35%;
   margin-top: 51px;
 }
+
 .course 
 {
   margin-right: 42%;
@@ -129,6 +131,7 @@ section
   font-family: "Roboto", sans-serif;
   margin-top: 130px;
 }
+
 .course h1 
 {
   color: #444444;	  
@@ -163,6 +166,7 @@ section
   font-family: "Roboto", sans-serif;
   margin-top: 144px;
 }
+
 .daily_report h1 
 {
   color: #444444;	  
@@ -191,6 +195,7 @@ section
   margin-top: 40px;
   text-align: justify;
 }
+
 .daily img 
 {
   margin-left: 78px;
@@ -234,7 +239,7 @@ section
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  min-height: 544px;
+  height: 544px;
   background-color: rgba(40,50,56,0.9);
   text-align: center;
   padding-top: 50px;
@@ -255,6 +260,7 @@ section
   float: left;
   border-radius: 100%;
 }
+
 .banner-customer .dot div:first-child 
 {
   background-color: #D8D8D8;
@@ -297,6 +303,7 @@ section
   line-height: 13px;	
   text-align: center;
 }
+
 .banner-customer .customer .avatar p:last-child
 {
   color: #FFFFFF;	
@@ -326,6 +333,7 @@ section
   line-height: 30px;
   text-align: justify;  
 }
+
 .slogan i 
 {
   font-family: themify;	
@@ -334,12 +342,14 @@ section
   text-align: justify;
   opacity: 0.4;
 }
+
 .slogan i:first-child 
 {
   position: absolute;
   top: -53px;
   left: -100px;
 }
+
 .slogan i:last-child 
 {
   position: absolute;
@@ -434,60 +444,72 @@ footer
   overflow: hidden;
 }
 
-.row::after 
-
+.row::after
 {
   clear: both;
 }
+
 [class*="col-"] 
 {
     float: left;
 }
+
 .col-1 
 {
   width: 8.33%;
 }
+
 .col-2 
 {
   width: 16.66%;
 }
+
 .col-3 
 {
   width: 25%;
 }
+
 .col-4 
 {
   width: 33.33%;
 }
+
 .col-5 
 {
   width: 41.67%;
 }
+
 .col-6 
 {
   width: 50%;
 }
+
 .col-7 
 {
   width: 58.33%;
 }
+
 .col-8 
 {
   width: 66.67%;
 }
+
 .col-9 
 {
   width: 75%;
 }
+
 .col-10 
 {
 
   width: 83.33%;
 }
+
 .col-11 
 {
   width: 91.67%;
 }
+
 .col-12 
 {
   width: 100%;
@@ -497,7 +519,7 @@ footer
 .features
 { 
   background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
-  min-height: 322px;
+  height: 322px;
 }
 
 .feature_container
@@ -505,6 +527,7 @@ footer
   width: 70%;
   margin: auto;
 }
+
 .feature 
 {
   color: #FFFFFF;	
@@ -608,6 +631,7 @@ footer
   font-weight: 300;
   line-height: 19px;
 }
+
 .member .todo 
 {
   width: 100%;
