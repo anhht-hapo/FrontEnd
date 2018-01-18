@@ -251,16 +251,21 @@ section
 
 .banner-customer .customer 
 {
-  padding-left: 363px;
-  padding-right: 363px;
-  width: 100%;
+  width: 65%;
+  margin: auto;
 }
 
 .banner-customer .customer .avatar 
 {
   float: left;
-  width:150px;
+  width:12.5%;
+  text-align: center;
 }
+
+.banner-customer .customer .avatar img {
+  margin: 0px;
+}
+
 
 .banner-customer .customer .avatar p:first-child
 {
