@@ -132,7 +132,7 @@ section
   margin-top: 130px;
 }
 
-.course h1 
+.course h2 
 {
   color: #444444;	  
   font-size: 48px; 
@@ -167,7 +167,7 @@ section
   margin-top: 144px;
 }
 
-.daily_report h1 
+.daily_report h2 
 {
   color: #444444;	  
   font-size: 48px; 
@@ -266,7 +266,7 @@ section
   background-color: #D8D8D8;
 }
 
-.banner-customer h1
+.banner-customer h2
 {
   color: #FFFFFF;	
   font-family: "Roboto", sans-serif;	
@@ -614,7 +614,7 @@ footer
   display: table;
 }
 
-.member h1 
+.member h2 
 {
   color: #444444;	
   font-family: "Roboto", sans-serif;	
