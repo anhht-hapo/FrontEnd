@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Enso;
-    src: url(../font/enso.ttf);
+  font-family: Enso;
+  src: url(../font/enso.ttf);
 }
 @import url('https://fonts.googleapis.com/css?family="Roboto", sans-serif');
 
@@ -49,7 +49,8 @@ header
   margin-top: 53px;
 }
 
-.icon-container .icon {
+.icon-container .icon 
+{
   text-align: center;
   color: #283238;	
   float: left;
@@ -118,17 +119,17 @@ section
 
 .today img 
 {
-  margin-left: 181px;
+  margin-left: 19.35%;
   margin-top: 51px;
 }
-.couser 
+.course 
 {
   margin-right: 390px;
   text-align: justify;
   font-family: "Roboto", sans-serif;
   margin-top: 130px;
 }
-.couser h1 
+.course h1 
 {
   color: #444444;	  
   font-size: 48px; 
@@ -136,7 +137,7 @@ section
   line-height: 63px;
 }
 
-.couser em 
+.course em 
 {
   font-size: 14px;
   color: #283238;
@@ -144,7 +145,7 @@ section
   line-height: 19px;
 }
 
-.couser p 
+.course p 
 {
   font-size: 13px;
   color: #283238;
@@ -157,7 +158,7 @@ section
 
 .daily_report 
 {
-  margin-left: 390px;
+  margin-left: 40%;
   text-align: justify;
   font-family: "Roboto", sans-serif;
   margin-top: 130px;
@@ -197,17 +198,17 @@ section
 }
 .banner 
 {
-  	background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
-    width: 100%;
-    clear: both;
-    background-color: #429321;
+  background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+  width: 100%;
+  clear: both;
+  background-color: #429321;
 }
 
 .banner .logo-container
 {
-    width: 10%;
-    float: left;
-    text-align: center;
+  width: 10%;
+  float: left;
+  text-align: center;
 }
 
 .banner .logo-container .big-logo
@@ -229,7 +230,7 @@ section
 
 .banner-customer 
 {
-  background: url("../img/Rectangle 3.jpg");
+  background: url("../img/Rectangle_3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
@@ -308,23 +309,23 @@ section
 
 .slogan i:first-child 
 {
-    font-family: themify;	
-    font-size: 72px;	
-    line-height: 73px;	
-    text-align: justify;
-    position: absolute;
-    top: -53px;
-    left: -100px;
+  font-family: themify;	
+  font-size: 72px;	
+  line-height: 73px;	
+  text-align: justify;
+  position: absolute;
+  top: -53px;
+  left: -100px;
 }
 .slogan i:last-child 
 {
-    font-family: themify;	
-    font-size: 72px;	
-    line-height: 73px;	
-    text-align: justify;
-    position: absolute;
-    bottom: -53px;
-    right: -100px;
+  font-family: themify;	
+  font-size: 72px;	
+  line-height: 73px;	
+  text-align: justify;
+  position: absolute;
+  bottom: -53px;
+  right: -100px;
 }
 
 
@@ -491,21 +492,21 @@ footer
 
 .feature .logo
 {
-    margin: auto;
-    border: 2.5px solid #FFFFFF;
-    border-radius: 100%;
-    box-sizing: border-box;	
-    height: 109.5px;	
-    width: 109.5px;
-    position: relative;
-    padding: auto;
+  margin: auto;
+  border: 2.5px solid #FFFFFF;
+  border-radius: 100%;
+  box-sizing: border-box;	
+  height: 109.5px;	
+  width: 109.5px;
+  position: relative;
+  padding: auto;
     
 }
 
 .feature .logo i 
 {
-  top: 30px;
-  left: 30px; 
+  top: 37px;
+  left: 33px; 
   position: absolute;
   font-size: 40px;	
   font-weight: 500;	
@@ -554,6 +555,7 @@ footer
   top: 50px;
   left: 10px;
 }
+
 
 .member {
   font-family: "Roboto", sans-serif;
@@ -615,12 +617,13 @@ footer
 .member-info .member 
 {
   margin-left: 40%;
-  margin-top: 97px;
+  margin-top: 57px;
 }
 
 .member-info img 
 {
   margin-top: 97px;
+  margin-left: 50px;
 }
 
 
@@ -636,6 +639,6 @@ footer
 }
 
 .customer img {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 24%;
 }
