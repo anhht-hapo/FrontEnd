@@ -240,12 +240,14 @@ section
   padding-top: 50px;
 }
 
-.banner-customer .dot {
+.banner-customer .dot 
+{
   width: 6%;
   margin: auto;
 }
 
-.banner-customer .dot .oval {
+.banner-customer .dot .oval 
+{
   height: 10px;
   width: 10px;
   margin: 10px;
@@ -253,7 +255,8 @@ section
   float: left;
   border-radius: 100%;
 }
-.banner-customer .dot div:first-child {
+.banner-customer .dot div:first-child 
+{
   background-color: #D8D8D8;
 }
 
@@ -323,23 +326,22 @@ section
   line-height: 30px;
   text-align: justify;  
 }
-
-.slogan i:first-child 
+.slogan i 
 {
   font-family: themify;	
   font-size: 72px;	
   line-height: 73px;	
   text-align: justify;
+  opacity: 0.4;
+}
+.slogan i:first-child 
+{
   position: absolute;
   top: -53px;
   left: -100px;
 }
 .slogan i:last-child 
 {
-  font-family: themify;	
-  font-size: 72px;	
-  line-height: 73px;	
-  text-align: justify;
   position: absolute;
   bottom: -53px;
   right: -100px;
@@ -389,12 +391,18 @@ footer
   line-height: 18px;
 }
 
-.single-widget-main h2 {
+.single-widget-main h2 
+{
   color: #AED581;
   font-family: Enso;	
   font-size: 24px;	
   line-height: 29px;
   margin: 0px;
+}
+
+.single-widget-main li 
+{
+  margin-top: 35px;
 }
 
 .single-icon 
@@ -531,7 +539,8 @@ footer
   line-height: 24px;
 }
 
-.feature .number {
+.feature .number 
+{
   top: 85px;
   left: 29px; 
   position: absolute;
@@ -543,7 +552,8 @@ footer
   padding: auto;
 }
 
-.feature>p {
+.feature>p 
+{
   font-family: "Roboto", sans-serif;	
   font-size: 18px;	
   font-weight: 500;	
@@ -574,7 +584,8 @@ footer
 }
 
 
-.member {
+.member 
+{
   font-family: "Roboto", sans-serif;
   width: 555px;
   display: table;
@@ -597,7 +608,8 @@ footer
   font-weight: 300;
   line-height: 19px;
 }
-.member .todo {
+.member .todo 
+{
   width: 100%;
   margin: 17px 0px;
   display: table;
@@ -655,7 +667,8 @@ footer
 
 }
 
-.customer img {
+.customer img 
+{
   margin-top: 40px;
   margin-left: 24%;
 }
