@@ -124,7 +124,7 @@ section
 }
 .course 
 {
-  margin-right: 390px;
+  margin-right: 42%;
   text-align: justify;
   font-family: "Roboto", sans-serif;
   margin-top: 130px;
@@ -183,7 +183,7 @@ section
 .daily_report p 
 {
   font-size: 13px;
-  width: 457px;
+  width: 455px;
   color: #283238;
   font-weight: 300;
   line-height: 24px;
