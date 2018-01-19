@@ -563,6 +563,10 @@ footer
 { 
   background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
   height: 322px;
+  color: #FFFFFF;	
+  font-family: "Roboto",sans-serif;	
+  font-size: 24px;	
+  line-height: 32px;
 }
 
 .feature_container
@@ -616,6 +620,11 @@ footer
   border: 2.5px solid #FFFFFF;
   background-color: #7CB342;
   padding: auto;
+}
+.feature .number p
+{
+  margin: 0px;
+  margin-top:5px;
 }
 
 .feature>p 
