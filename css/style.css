@@ -89,13 +89,12 @@ header
   margin: auto;
 }
 
-.hapo-erp p 
+.hapo-erp p
 {
-    color: #283238;	
-    font-family: "Roboto",sans-serif;	
-    font-size: 18px;	
-    font-style: italic;	
-    line-height: 24px;
+  color: #283238;	
+  font-family: "Roboto",sans-serif;	
+  font-size: 18px;	
+  line-height: 24px;
 }
 
 
