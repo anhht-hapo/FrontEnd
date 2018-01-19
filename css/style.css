@@ -1,65 +1,698 @@
 @font-face {
-    font-family: Enso;
-    src: url(../font/enso.ttf);
+  font-family: Enso;
+  src: url(../font/enso.ttf);
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.rectagle
+@import url('https://fonts.googleapis.com/css?family="Roboto", sans-serif');
+
+header 
 {
-  height: 1063px;	
+  padding-top: 51px;
+  min-height: 876px;
   width: 100%;
   background-image: url("../img/Rectangle.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.login 
+.login
 {
-    display: inline;
-}
-.rectagle-2
-{
-  height: 36px;	
-  width: 82px;	
-  border: 2px solid #8BC34A;	
-  border-radius: 100px;
+  margin-bottom: 190px;
 }
 
-.sign-in
+.login .about-us
 {
-  height: 16px;	
-  width: 70px;	
-  color: #8BC34A;	
-  font-family: Roboto;	
+  margin-left: 70%;
+  margin-right: 1.98%;
+  color: #283238;	
+  font-family: "Roboto", sans-serif;	
   font-size: 12px;	
   font-weight: 500;	
   letter-spacing: 1px;	
   line-height: 16px;
-  margin: 10px 16px;
+  background: none;
+  border: 0;
 }
 
-.about-us 
-{	
-    margin: 0px 1443px 0px 10px;
+.login .sign-in 
+{
+  border: 2px solid #8BC34A;	
+  border-radius: 100px;
+  color: #8BC34A;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 12px;	
+  font-weight: 500;	
+  letter-spacing: 1px;	
+  line-height: 16px;
+  padding: 10px 15px;
+  background: none;
+}
+
+.icon-container 
+{
+  margin-bottom: 53px;
+  margin-top: 53px;
+}
+
+.icon-container .icon 
+{
+  text-align: center;
+  color: #283238;	
+  float: left;
+  width: 33.33%;
+}
+
+.icon-container .icon [class^="ti-"]
+{
+  font-family: themify;	
+  font-size: 48px;	
+  letter-spacing: 4px;	
+  line-height: 48px;
+}
+.icon-container .icon p 
+{
+  color: #283238;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 36px;	
+  font-weight: 300;	
+  line-height: 48px;
 }
 
 .hapo-erp 
-{	
-    
+{
+  width: 45%;
+  text-align: center;
+  margin: auto;
 }
-.start-now {	
-  height: 60px;	
-  width: 225px;	
+
+.button-start 
+{
+  padding: 18px 56px;
   border-radius: 100px;	
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-  color: #FFFFFF;
-  padding: 18px 55px;
-  font-family: Roboto;
-  font-size: 18px;
+  color: #FFFFFF;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 18px;	
   font-weight: 500;
-  text-transform: uppercase;
+  letter-spacing: 1px;	
+  line-height: 24px;
 }
-[class^=ti-] {
-    font-size: 48px;
-    color: #283238;
+
+.button-start:hover 
+{
+  background: linear-gradient(311.12deg, #429321 0%,  #B4EC51 100%);	
+  
+}
+
+button 
+{
+  cursor: pointer;
+}
+
+section 
+{
+  box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+  height: 661px;
+  overflow: hidden; 
+  box-sizing: border-box;
+}
+
+.today img 
+{
+  margin-left: 19.35%;
+  margin-top: 51px;
+}
+
+.course 
+{
+  margin-right: 42%;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  margin-top: 130px;
+}
+
+.course h2 
+{
+  color: #444444;	  
+  font-size: 48px; 
+  font-weight: 300;
+  line-height: 63px;
+}
+
+.course em 
+{
+  font-size: 14px;
+  color: #283238;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.course p 
+{
+  font-size: 13px;
+  color: #283238;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.daily_report 
+{
+  margin-left: 40%;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  margin-top: 144px;
+}
+
+.daily_report h2 
+{
+  color: #444444;	  
+  font-size: 48px; 
+  font-weight: 300;
+  line-height: 63px;
+
+}
+
+.daily_report em 
+{
+  font-size: 14px;
+  color: #283238;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.daily_report p 
+{
+  font-size: 13px;
+  width: 455px;
+  color: #283238;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.daily img 
+{
+  margin-left: 78px;
+  margin-top: 12px;
+}
+.banner 
+{
+  background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+  width: 100%;
+  clear: both;
+  background-color: #429321;
+}
+
+.banner .logo-container
+{
+  width: 10%;
+  float: left;
+  text-align: center;
+}
+
+.banner .logo-container .big-logo
+{
+  padding: 30px;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2.5px solid #123;
+}
+
+.banner .logo-container .small-logo
+{
+  position: absolute;
+  box-sizing: border-box;	
+  border: 2.5px solid #FFFFFF;
+  background-color: #7CB342;
+}
+
+.banner-customer 
+{
+  background: url("../img/Rectangle_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 544px;
+  background-color: rgba(40,50,56,0.9);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.banner-customer .dot 
+{
+  width: 6%;
+  margin: auto;
+}
+
+.banner-customer .dot .oval 
+{
+  height: 10px;
+  width: 10px;
+  margin: 10px;
+  border: 1px solid #979797;
+  float: left;
+  border-radius: 100%;
+}
+
+.banner-customer .dot div:first-child 
+{
+  background-color: #D8D8D8;
+}
+
+.banner-customer h2
+{
+  color: #FFFFFF;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 48px;	
+  font-weight: 300;	
+  line-height: 63px;
+  margin-top: 0px;
+}
+
+.banner-customer .customer 
+{
+  width: 65%;
+  margin: auto;
+}
+
+.banner-customer .customer .avatar 
+{
+  float: left;
+  width:12.5%;
+  text-align: center;
+}
+
+.banner-customer .customer .avatar img {
+  margin: 0px;
+}
+
+
+.banner-customer .customer .avatar p:first-child
+{
+  color: #FFFFFF;	
+  font-family: "Roboto",sans-serif;;	
+  font-size: 13px;	
+  font-weight: 300;	
+  line-height: 13px;	
+  text-align: center;
+}
+
+.banner-customer .customer .avatar p:last-child
+{
+  color: #FFFFFF;	
+  font-family: "Roboto",sans-serif;;	
+  font-size: 10px;	
+  font-weight: 300;	
+  line-height: 13px;	
+  text-align: center;
+}
+
+.slogan 
+{
+  color: #FFFFFF;	
+  clear: both;
+  width: 40%;
+  margin: auto;
+  margin-top: 250px;
+  position: relative;
+
+}
+
+.slogan p 
+{
+  font-family: "Roboto",sans-serif;	
+  font-size: 18px;	
+  font-weight: 300;	
+  line-height: 30px;
+  text-align: justify;  
+}
+
+.slogan i 
+{
+  font-family: themify;	
+  font-size: 72px;	
+  line-height: 73px;	
+  text-align: justify;
+  opacity: 0.4;
+}
+
+.slogan i:first-child 
+{
+  position: absolute;
+  top: -53px;
+  left: -100px;
+}
+
+.slogan i:last-child 
+{
+  position: absolute;
+  bottom: -53px;
+  right: -100px;
+}
+
+
+
+
+footer 
+{
+  border: 1px solid #ECEFF1;	
+  background-color: #39474E;	
+  box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+  padding-top: 45px;
+  padding-bottom: 54px;
+  
+}
+
+.single-widget 
+{
+  text-align: left;
+  
+}
+
+.single-widget ul
+{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.single-widget ul li a
+{
+  color: #D0D8DC;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 10px;	
+  font-weight: 500;	
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.single-widget h2
+{
+  color: #8BC34A;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 13px;	
+  font-weight: 500;	
+  line-height: 18px;
+}
+
+.single-widget-main h2 
+{
+  color: #AED581;
+  font-family: Enso;	
+  font-size: 24px;	
+  line-height: 29px;
+  margin: 0px;
+}
+
+.single-widget-main li 
+{
+  margin-top: 35px;
+}
+
+.single-icon 
+{
+  margin-top: 54px;
+  color: #8BC34A;
+}
+
+.single-icon ul 
+{
+  list-style: none;
+  width: 105%;
+}
+
+.single-icon li 
+{
+  width:20%;
+  display: inline-block;
+}
+
+.container 
+{
+  width: 60%;
+  margin: auto; 
+}
+
+.row 
+{
+  overflow: hidden;
+}
+
+.row::after
+{
+  clear: both;
+}
+
+[class*="col-"] 
+{
+    float: left;
+}
+
+.col-1 
+{
+  width: 8.33%;
+}
+
+.col-2 
+{
+  width: 16.66%;
+}
+
+.col-3 
+{
+  width: 25%;
+}
+
+.col-4 
+{
+  width: 33.33%;
+}
+
+.col-5 
+{
+  width: 41.67%;
+}
+
+.col-6 
+{
+  width: 50%;
+}
+
+.col-7 
+{
+  width: 58.33%;
+}
+
+.col-8 
+{
+  width: 66.67%;
+}
+
+.col-9 
+{
+  width: 75%;
+}
+
+.col-10 
+{
+
+  width: 83.33%;
+}
+
+.col-11 
+{
+  width: 91.67%;
+}
+
+.col-12 
+{
+  width: 100%;
+}
+
+
+.features
+{ 
+  background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+  height: 322px;
+}
+
+.feature_container
+{
+  width: 70%;
+  margin: auto;
+}
+
+.feature 
+{
+  color: #FFFFFF;	
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  float: left;
+  padding-top: 70px;
+}
+
+.feature .logo
+{
+  margin: auto;
+  border: 2.5px solid #FFFFFF;
+  border-radius: 100%;
+  box-sizing: border-box;	
+  height: 109.5px;	
+  width: 109.5px;
+  position: relative;
+  padding: auto;
+    
+}
+
+.feature .logo i 
+{
+  top: 37px;
+  left: 33px; 
+  position: absolute;
+  font-size: 40px;	
+  font-weight: 500;	
+  letter-spacing: 1px;	
+  line-height: 24px;
+}
+
+.feature .number 
+{
+  top: 85px;
+  left: 29px; 
+  position: absolute;
+  border-radius: 100%; 
+  height: 45.5px;	
+  width: 45.5px;	
+  border: 2.5px solid #FFFFFF;
+  background-color: #7CB342;
+  padding: auto;
+}
+
+.feature>p 
+{
+  font-family: "Roboto", sans-serif;	
+  font-size: 18px;	
+  font-weight: 500;	
+  line-height: 24px;
+  margin-top: 50px;
+}
+
+.single-feature .icon 
+{
+  box-sizing: border-box;
+  float:left;
+  height: 109.5px;
+  width: 20%;
+  float: left;
+  border: 2.5px solid #FFFFFF ;
+  border-radius: 50%;
+  margin-left: 35%;
+  margin-right: 30%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.single-feature .number 
+{
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+
+.member 
+{
+  font-family: "Roboto", sans-serif;
+  width: 555px;
+  display: table;
+}
+
+.member h2 
+{
+  color: #444444;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 48px;	
+  font-weight: 300;	
+  line-height: 63px;
+  
+}
+
+.member>p
+{
+  font-size: 14px;
+  color: #283238;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.member .todo 
+{
+  width: 100%;
+  margin: 17px 0px;
+  display: table;
+}
+
+.member .todo i 
+{
+  float: left;
+  color: #8BC34A;	
+  font-family: themify;	
+  font-size: 18px;	
+  line-height: 24px;	
+  text-align: justify;
+  width: 8%;
+}
+
+.member .todo p
+{
+  width: 92%;
+  margin: 0px;
+  float: left;
+  color: #283238;	
+  font-family: "Roboto";	
+  font-size: 15px;	
+  line-height: 24px;	
+  text-align: justify;
+}
+
+.member button 
+{
+  margin-top: 13px;
+}
+
+.member-info .member 
+{
+  margin-left: 40%;
+  margin-top: 57px;
+}
+
+.member-info img 
+{
+  margin-top: 97px;
+  margin-left: 50px;
+}
+
+
+.project img 
+{
+  margin-top: 34px;
+}
+
+.customer .member
+{
+  margin-top: 97px;
+
+}
+
+.customer img 
+{
+  margin-top: 40px;
+  margin-left: 24%;
 }
