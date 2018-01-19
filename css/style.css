@@ -1,23 +1,27 @@
+body {
+  margin: 0px;
+}
+
 @font-face {
   font-family: Enso;
   src: url(../font/enso.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css?family="Roboto", sans-serif');
+@import url('https://fonts.googleapis.com/css?family="Roboto", sans-serif:300,400');
 
 header 
 {
-  padding-top: 51px;
   min-height: 876px;
   width: 100%;
   background-image: url("../img/Rectangle.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  box-sizing: border-box;
+  padding-top: 41px;
 }
 
 .login
 {
-  margin-bottom: 190px;
+  margin-bottom: 180px;
 }
 
 .login .about-us
@@ -80,23 +84,33 @@ header
 
 .hapo-erp 
 {
-  width: 45%;
+  width: 49%;
   text-align: center;
   margin: auto;
 }
+
+.hapo-erp p 
+{
+    color: #283238;	
+    font-family: "Roboto",sans-serif;	
+    font-size: 18px;	
+    font-style: italic;	
+    line-height: 24px;
+}
+
 
 .button-start 
 {
   padding: 18px 56px;
   border-radius: 100px;	
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
   color: #FFFFFF;	
   font-family: "Roboto", sans-serif;	
   font-size: 18px;	
   font-weight: 500;
   letter-spacing: 1px;	
   line-height: 24px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
 }
 
 .button-start:hover 
@@ -107,6 +121,7 @@ header
 
 button 
 {
+  border: none;
   cursor: pointer;
 }
 
@@ -126,10 +141,14 @@ section
 
 .course 
 {
+  width: 555px;
   margin-right: 42%;
   text-align: justify;
   font-family: "Roboto", sans-serif;
   margin-top: 130px;
+}
+h2 {
+  margin-bottom: 16px;  
 }
 
 .course h2 
@@ -249,12 +268,13 @@ section
 {
   width: 6%;
   margin: auto;
+  margin-top:190px;
 }
 
 .banner-customer .dot .oval 
 {
   height: 10px;
-  width: 10px;
+  width: 10px;  
   margin: 10px;
   border: 1px solid #979797;
   float: left;
@@ -274,12 +294,14 @@ section
   font-weight: 300;	
   line-height: 63px;
   margin-top: 0px;
+  margin-bottom: 34px;
 }
 
 .banner-customer .customer 
 {
   width: 65%;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .banner-customer .customer .avatar 
@@ -288,9 +310,22 @@ section
   width:12.5%;
   text-align: center;
 }
+.banner-customer .customer .avatar .customer-info {
+  margin-top: 16px;
+}
+.banner-customer .customer .avatar .customer-info p
+{
+  margin-top:0px;
+  margin-bottom:0px;
+}
 
 .banner-customer .customer .avatar img {
   margin: 0px;
+}
+
+.banner-customer .customer .avatar img:hover {
+  height: 100px;
+  width: 100px;
 }
 
 
@@ -318,7 +353,7 @@ section
 {
   color: #FFFFFF;	
   clear: both;
-  width: 41%;
+  width: 40%;
   margin: auto;
   margin-top: 260px;
   position: relative;
@@ -366,7 +401,7 @@ footer
   background-color: #39474E;	
   box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
   padding-top: 45px;
-  padding-bottom: 54px;
+  padding-bottom: 40px;
   
 }
 
@@ -413,6 +448,11 @@ footer
 .single-widget-main li 
 {
   margin-top: 35px;
+  color: #D0D8DC;	
+  font-family: "Roboto",sans-serif;	
+  font-size: 10px;	
+                                                                                                                                                                                                                                                                                    font-weight: 500;	
+  line-height: 20px;
 }
 
 .single-icon 
@@ -421,16 +461,20 @@ footer
   color: #8BC34A;
 }
 
-.single-icon ul 
+.single-icon ul                                                                                                                                                                     
 {
   list-style: none;
-  width: 105%;
+  width: 100%;
 }
 
 .single-icon li 
 {
   width:20%;
   display: inline-block;
+}
+
+.single-icon i {
+  /* height: 13px;	width: 13px;     */
 }
 
 .container 
@@ -556,7 +600,7 @@ footer
   top: 37px;
   left: 33px; 
   position: absolute;
-  font-size: 40px;	
+  font-size: 35px;	
   font-weight: 500;	
   letter-spacing: 1px;	
   line-height: 24px;
@@ -665,6 +709,11 @@ footer
 .member button 
 {
   margin-top: 13px;
+}
+
+.member-info .row
+{
+  overflow: visible;
 }
 
 .member-info .member 
