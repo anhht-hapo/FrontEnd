@@ -69,7 +69,7 @@ header
   border-radius: 100px;
   color: #8BC34A;	
   font-weight: 500;	
-  padding: 12px 14px;
+  padding: 10px 14px;
   background: none;
   margin-left: 30px;
   letter-spacing: 1px;	
@@ -342,76 +342,54 @@ h2 {
   height: 544px;
   background-color: rgba(40,50,56,0.9);
   text-align: center;
-  padding-top: 50px;
-}
-
-.banner-customer .dot 
-{
-  width: 6%;
-  margin: auto;
-  margin-top:190px;
-}
-
-.banner-customer .dot .oval 
-{
-  height: 10px;
-  width: 10px;  
-  margin: 10px;
-  border: 1px solid #979797;
-  float: left;
-  border-radius: 100%;
-}
-
-.banner-customer .dot div:first-child 
-{
-  background-color: #D8D8D8;
 }
 
 .banner-customer h2
 {
+  padding-top: 50px;  
   color: #FFFFFF;	
   font-family: Roboto;	
   font-size: 48px;	
   font-weight: 300;	
   line-height: 63px;
-  margin-top: 0px;
-  margin-bottom: 45px;
-}
-
-.banner-customer .customer 
-{
-  width: 62%;
-  margin: auto;
-  box-sizing: border-box;
-}
-
-.banner-customer .customer .avatar 
-{
-  float: left;
-  width:12.5%;
-  text-align: center;
-}
-.banner-customer .customer .avatar .customer-info {
-  margin-top: 16px;
-}
-.banner-customer .customer .avatar .customer-info p
-{
-  margin-top:0px;
-  margin-bottom:0px;
-}
-
-.banner-customer .customer .avatar img {
   margin: 0px;
 }
 
-.banner-customer .customer .avatar img:hover {
-  margin-top:-15px;
+.banner-customer .avatar-container
+{
+  padding-top: 35px;
+  width: 62%;
+  margin: auto;
+}
+.banner-customer .avatar-container .owl-dots .owl-dot span
+{
+  background: none;
+  border: 1px solid #979797;
+  border-radius: 100%;
+}
+
+
+.banner-customer .avatar-container .avatar img
+{
+  margin: auto;
+  height: 80px;
+  width: 80px;
+}
+
+.banner-customer .avatar-container .avatar img:hover
+{
+  margin-top: -10px;
   height: 100px;
   width: 100px;
 }
 
+.banner-customer .avatar-container .avatar .customer-info
+{
+  margin-top: 18px;
+}
 
-.banner-customer .customer .avatar p:first-child
+
+.banner-customer .avatar-container .avatar p:first-child
 {
   color: #FFFFFF;	
   font-family: Roboto-Medium;	
@@ -421,7 +399,7 @@ h2 {
   text-align: center;
 }
 
-.banner-customer .customer .avatar p:last-child
+.banner-customer .avatar-container .avatar p:last-child
 {
   color: #FFFFFF;	
   font-family: Roboto;	
@@ -430,6 +408,11 @@ h2 {
   line-height: 13px;	
   text-align: center;
 }
+.banner-customer .avatar-container .owl-item
+{
+  height: 150px;
+  padding-top: 10px;
+}
 
 .slogan 
 {
@@ -437,7 +420,7 @@ h2 {
   clear: both;
   width: 39%;
   margin: auto;
-  margin-top: 270px;
+  margin-top: 40px;
   position: relative;
 
 }
@@ -470,7 +453,7 @@ h2 {
 .slogan i:last-child 
 {
   position: absolute;
-  bottom: -53px;
+  bottom: -43px;
   right: -100px;
 }
 
@@ -500,7 +483,7 @@ footer
 .single-widget ul li a
 {
   color: #D0D8DC;	
-  font-family: Roboto-Regular;	
+  font-family: Roboto-Medium;	
   font-size: 10px;	
   font-weight: 500;	
   text-decoration: none;
@@ -560,7 +543,7 @@ footer .container
 {
   width: 61%;
   padding-top: 45px;
-  padding-left: 389px; 
+  padding-left: 389px;
 }
 
 .row 
