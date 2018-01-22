@@ -1,13 +1,39 @@
 body {
   margin: 0px;
+  width: 1920px;
 }
 
 @font-face {
   font-family: Enso;
   src: url(../font/enso.ttf);
 }
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../font/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../font/Roboto-Medium.ttf)
+}
 
-@import url('https://fonts.googleapis.com/css?family="Roboto", sans-serif:300,400');
+@font-face {
+  font-family: Roboto;
+  src: url(../font/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-Italic;
+  src: url(../font/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(../font/Roboto-Black.ttf);
+}
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400'); */
 
 header 
 {
@@ -16,46 +42,44 @@ header
   background-image: url("../img/Rectangle.jpg");
   background-repeat: no-repeat;
   box-sizing: border-box;
-  padding-top: 41px;
 }
 
 .login
 {
-  margin-bottom: 180px;
+  padding: 41px 200px 0px 1344px;
+
 }
 
 .login .about-us
 {
-  margin-left: 70%;
-  margin-right: 1.98%;
   color: #283238;	
-  font-family: "Roboto", sans-serif;	
-  font-size: 12px;	
-  font-weight: 500;	
+  font-family: Roboto-Regular;	  
+  font-size: 13px;
   letter-spacing: 1px;	
-  line-height: 16px;
+  line-height: 16px;	
+  font-weight: 300;	
   background: none;
   border: 0;
 }
 
 .login .sign-in 
 {
+  font-family: Roboto-Regular;	  
   border: 2px solid #8BC34A;	
   border-radius: 100px;
   color: #8BC34A;	
-  font-family: "Roboto", sans-serif;	
-  font-size: 12px;	
   font-weight: 500;	
-  letter-spacing: 1px;	
-  line-height: 16px;
   padding: 10px 15px;
   background: none;
+  margin-left: 34px;
+  letter-spacing: 1px;	
+  line-height: 16px;
 }
 
 .icon-container 
 {
-  margin-bottom: 53px;
-  margin-top: 53px;
+  margin-bottom: 210px;
+  margin-top: 48px;
 }
 
 .icon-container .icon 
@@ -63,7 +87,21 @@ header
   text-align: center;
   color: #283238;	
   float: left;
-  width: 33.33%;
+}
+
+.icon-container .icon:first-child
+{
+  width: 352px;
+}
+
+.icon-container .icon:nth-child(2)
+{
+  width: 304px;
+}
+
+.icon-container .icon:nth-child(3)
+{
+  width: 304px;
 }
 
 .icon-container .icon [class^="ti-"]
@@ -76,35 +114,58 @@ header
 .icon-container .icon p 
 {
   color: #283238;	
-  font-family: "Roboto", sans-serif;	
+  font-family: Roboto;	
   font-size: 36px;	
   font-weight: 300;	
   line-height: 48px;
+  margin-top: 16px;
 }
 
 .hapo-erp 
 {
-  width: 49%;
   text-align: center;
-  margin: auto;
+  padding: 180px 503px 0px 457px;
+}
+
+.hapo-erp .button-start
+{
+  margin-left: 45px;
 }
 
 .hapo-erp p
 {
   color: #283238;	
-  font-family: "Roboto",sans-serif;	
+  font-family: Roboto;	
   font-size: 18px;	
   line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.hapo-erp>p 
+{
+  text-align: left;
+  font-family: Roboto-Italic;
+  padding: 0px 0px 4px 241px;
+}
+.hapo-erp-logo
+{
+  padding: 0px 329px 0px 375px;
+}
+.hapo-erp-logo img
+{
+  width: 250px;
+  height: 60px;
 }
 
 
 .button-start 
 {
-  padding: 18px 56px;
+  width: 225px;
+  height: 60px;
   border-radius: 100px;	
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
   color: #FFFFFF;	
-  font-family: "Roboto", sans-serif;	
+  font-family: Roboto-Medium;	
   font-size: 18px;	
   font-weight: 500;
   letter-spacing: 1px;	
@@ -128,23 +189,25 @@ section
 {
   box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
   height: 661px;
+  width: 1920px;  
   overflow: hidden; 
   box-sizing: border-box;
+}
+.today 
+{
+  height: 662px;
 }
 
 .today img 
 {
-  margin-left: 19.35%;
+  margin-left: 18.86%;
   margin-top: 51px;
 }
 
 .course 
 {
-  width: 555px;
-  margin-right: 42%;
-  text-align: justify;
-  font-family: "Roboto", sans-serif;
-  margin-top: 130px;
+  font-family: Roboto;
+  padding: 104px 390px 128px 15px;
 }
 h2 {
   margin-bottom: 16px;  
@@ -157,32 +220,43 @@ h2 {
   font-weight: 300;
   line-height: 63px;
 }
+.course h2 i {
+  font-size: 36px;
+}
 
-.course em 
+.course p:nth-child(2)
 {
   font-size: 14px;
   color: #283238;
   font-weight: 300;
+  font-family: Roboto-Italic;
   line-height: 19px;
 }
 
-.course p 
+.course p:nth-child(3) 
 {
-  font-size: 13px;
+  font-size: 13.2px;
   color: #283238;
   font-weight: 300;
   line-height: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   margin-top: 40px;
   text-align: justify;
+  font-family: Roboto-Regular;
 }
+
+.daily
+{
+  height: 652px;
+}
+
 
 .daily_report 
 {
-  margin-left: 40%;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
-  margin-top: 144px;
+  font-family: Roboto;
+  padding: 104px 113px 0px 390px;
+  
 }
 
 .daily_report h2 
@@ -194,30 +268,36 @@ h2 {
 
 }
 
-.daily_report em 
+.daily_report h2 i 
+{
+  font-size: 36px;
+}
+
+.daily_report p:nth-child(2)
 {
   font-size: 14px;
   color: #283238;
   font-weight: 300;
   line-height: 19px;
+  font-family: Roboto-Italic;
 }
 
-.daily_report p 
+.daily_report p:nth-child(3) 
 {
-  font-size: 13px;
-  width: 455px;
+  font-size: 13.2px;
   color: #283238;
   font-weight: 300;
   line-height: 24px;
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: justify;
+  font-family: Roboto-Regular;  
 }
 
 .daily img 
 {
-  margin-left: 78px;
-  margin-top: 12px;
+  margin-left: 50px;
+  margin-top: 15px;
 }
 .banner 
 {
@@ -288,17 +368,17 @@ h2 {
 .banner-customer h2
 {
   color: #FFFFFF;	
-  font-family: "Roboto", sans-serif;	
+  font-family: Roboto;	
   font-size: 48px;	
   font-weight: 300;	
   line-height: 63px;
   margin-top: 0px;
-  margin-bottom: 34px;
+  margin-bottom: 45px;
 }
 
 .banner-customer .customer 
 {
-  width: 65%;
+  width: 62%;
   margin: auto;
   box-sizing: border-box;
 }
@@ -331,7 +411,7 @@ h2 {
 .banner-customer .customer .avatar p:first-child
 {
   color: #FFFFFF;	
-  font-family: "Roboto",sans-serif;;	
+  font-family: Roboto,sans-serif;;	
   font-size: 13px;	
   font-weight: 300;	
   line-height: 13px;	
@@ -341,7 +421,7 @@ h2 {
 .banner-customer .customer .avatar p:last-child
 {
   color: #FFFFFF;	
-  font-family: "Roboto",sans-serif;;	
+  font-family: Roboto,sans-serif;;	
   font-size: 10px;	
   font-weight: 300;	
   line-height: 13px;	
@@ -361,7 +441,7 @@ h2 {
 
 .slogan p 
 {
-  font-family: "Roboto",sans-serif;	
+  font-family: Roboto,sans-serif;	
   font-size: 18px;	
   font-weight: 300;	
   line-height: 30px;
@@ -399,9 +479,7 @@ footer
   border: 1px solid #ECEFF1;	
   background-color: #39474E;	
   box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
-  padding-top: 45px;
-  padding-bottom: 40px;
-  
+  height: 180px;
 }
 
 .single-widget 
@@ -419,7 +497,7 @@ footer
 .single-widget ul li a
 {
   color: #D0D8DC;	
-  font-family: "Roboto", sans-serif;	
+  font-family: Roboto-Regular;	
   font-size: 10px;	
   font-weight: 500;	
   line-height: 20px;
@@ -429,7 +507,7 @@ footer
 .single-widget h2
 {
   color: #8BC34A;	
-  font-family: "Roboto", sans-serif;	
+  font-family: Roboto-Regular;	
   font-size: 13px;	
   font-weight: 500;	
   line-height: 18px;
@@ -448,7 +526,7 @@ footer
 {
   margin-top: 35px;
   color: #D0D8DC;	
-  font-family: "Roboto",sans-serif;	
+  font-family: Roboto,sans-serif;	
   font-size: 10px;	
                                                                                                                                                                                                                                                                                     font-weight: 500;	
   line-height: 20px;
@@ -456,14 +534,16 @@ footer
 
 .single-icon 
 {
-  margin-top: 54px;
+  margin-top: 65px;
   color: #8BC34A;
 }
 
 .single-icon ul                                                                                                                                                                     
 {
   list-style: none;
-  width: 100%;
+  width: 117%;
+  padding: 0px;
+  text-align: center;
 }
 
 .single-icon li 
@@ -473,13 +553,15 @@ footer
 }
 
 .single-icon i {
-  /* height: 13px;	width: 13px;     */
+  font-size: 13px;
+
 }
 
-.container 
+footer .container 
 {
-  width: 60%;
-  margin: auto; 
+  width: 59%;
+  margin: auto;
+  padding-top: 50px; 
 }
 
 .row 
@@ -564,16 +646,41 @@ footer
   background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
   height: 322px;
   color: #FFFFFF;	
-  font-family: "Roboto",sans-serif;	
+  font-family: Roboto,sans-serif;	
   font-size: 24px;	
   line-height: 32px;
+  padding-left: 319px;
 }
 
 .feature_container
 {
-  width: 70%;
   margin: auto;
 }
+
+.feature:nth-child(1)
+{
+  width: 257px;
+}
+.feature:nth-child(2)
+{
+  width: 257px;
+}
+
+.feature:nth-child(3)
+{
+  width: 257px;
+}
+
+.feature:nth-child(4)
+{
+  width: 272px;
+}
+
+.feature:nth-child(5)
+{
+  width: 224px;
+}
+
 
 .feature 
 {
@@ -591,8 +698,8 @@ footer
   border: 2.5px solid #FFFFFF;
   border-radius: 100%;
   box-sizing: border-box;	
-  height: 109.5px;	
-  width: 109.5px;
+  height: 109px;	
+  width: 109px;
   position: relative;
   padding: auto;
     
@@ -615,8 +722,8 @@ footer
   left: 29px; 
   position: absolute;
   border-radius: 100%; 
-  height: 45.5px;	
-  width: 45.5px;	
+  height: 45px;	
+  width: 45px;	
   border: 2.5px solid #FFFFFF;
   background-color: #7CB342;
   padding: auto;
@@ -624,12 +731,12 @@ footer
 .feature .number p
 {
   margin: 0px;
-  margin-top:5px;
+  margin-top: 5px;
 }
 
 .feature>p 
 {
-  font-family: "Roboto", sans-serif;	
+  font-family: Roboto-Regular;	
   font-size: 18px;	
   font-weight: 500;	
   line-height: 24px;
@@ -661,19 +768,32 @@ footer
 
 .member 
 {
-  font-family: "Roboto", sans-serif;
-  width: 555px;
+  font-family: Roboto;
   display: table;
 }
 
 .member h2 
 {
   color: #444444;	
-  font-family: "Roboto", sans-serif;	
+  font-family: Roboto;	
   font-size: 48px;	
   font-weight: 300;	
   line-height: 63px;
   
+}
+.member-info {
+  height: 574px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05);
+  
+}
+.member-info img 
+{
+  height: 380px;
+}
+
+.member h2 i 
+{
+  font-size: 36px;
 }
 
 .member>p
@@ -682,6 +802,7 @@ footer
   color: #283238;
   font-weight: 300;
   line-height: 19px;
+  margin-bottom: 38px;
 }
 
 .member .todo 
@@ -699,17 +820,17 @@ footer
   font-size: 18px;	
   line-height: 24px;	
   text-align: justify;
-  width: 8%;
+  width: 7%;
 }
 
 .member .todo p
 {
-  width: 92%;
+  width: 93%;
   margin: 0px;
   float: left;
   color: #283238;	
-  font-family: "Roboto";	
-  font-size: 15px;	
+  font-family: Roboto-Regular;	
+  font-size: 13.2px;	
   line-height: 24px;	
   text-align: justify;
 }
@@ -726,30 +847,39 @@ footer
 
 .member-info .member 
 {
-  margin-left: 40%;
-  margin-top: 57px;
+  padding: 57px 0px 76px 390px;  
 }
 
 .member-info img 
 {
   margin-top: 97px;
   margin-left: 50px;
+  height: 401px;
 }
 
 
 .project img 
 {
-  margin-top: 34px;
+  margin-top: 12px;
+  margin-left: -10px;
+}
+.project 
+{
+  height: 644px;
+}
+.project .daily_report
+{
+  padding: 57px 113px 127px 390px;
 }
 
 .customer .member
 {
-  margin-top: 97px;
+  padding: 90px 390px 128px   14px;
 
 }
 
 .customer img 
 {
-  margin-top: 40px;
-  margin-left: 24%;
+  margin-top: 54px;
+  margin-left: 181px;
 }
