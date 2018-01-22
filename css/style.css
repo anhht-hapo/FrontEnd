@@ -69,9 +69,9 @@ header
   border-radius: 100px;
   color: #8BC34A;	
   font-weight: 500;	
-  padding: 10px 15px;
+  padding: 12px 14px;
   background: none;
-  margin-left: 34px;
+  margin-left: 30px;
   letter-spacing: 1px;	
   line-height: 12px;
   font-size: 12px;
@@ -169,7 +169,8 @@ header
   font-family: Roboto-Medium;	
   font-size: 18px;	
   font-weight: 500;
-  letter-spacing: 1px;	
+  letter-spacing: 1px;
+  padding: auto;	
   line-height: 24px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
 }
@@ -404,6 +405,7 @@ h2 {
 }
 
 .banner-customer .customer .avatar img:hover {
+  margin-top:-15px;
   height: 100px;
   width: 100px;
 }
@@ -412,7 +414,7 @@ h2 {
 .banner-customer .customer .avatar p:first-child
 {
   color: #FFFFFF;	
-  font-family: Roboto;	
+  font-family: Roboto-Medium;	
   font-size: 13px;	
   font-weight: 300;	
   line-height: 13px;	
@@ -433,9 +435,9 @@ h2 {
 {
   color: #FFFFFF;	
   clear: both;
-  width: 40%;
+  width: 39%;
   margin: auto;
-  margin-top: 260px;
+  margin-top: 270px;
   position: relative;
 
 }
@@ -501,48 +503,44 @@ footer
   font-family: Roboto-Regular;	
   font-size: 10px;	
   font-weight: 500;	
-  line-height: 20px;
   text-decoration: none;
 }
 
 .single-widget h2
 {
   color: #8BC34A;	
-  font-family: Roboto-Regular;	
+  font-family: Roboto-Medium;	
   font-size: 13px;	
   font-weight: 500;	
-  line-height: 18px;
 }
 
-.single-widget-main h2 
+.single-widget-main img 
 {
-  color: #AED581;
-  font-family: Enso;	
-  font-size: 24px;	
-  line-height: 29px;
-  margin: 0px;
+  margin-top: 6px;
+  width: 96px;
+  height: 22px;
 }
 
 .single-widget-main li 
 {
-  margin-top: 35px;
+  margin-top: 34px;
   color: #D0D8DC;	
-  font-family: Roboto;	
+  font-family: Roboto-Medium;	
   font-size: 10px;	
-                                                                                                                                                                                                                                                                                    font-weight: 500;	
-  line-height: 20px;
+                                                                                                                                                                                                                                                                                      font-weight: 500;	
 }
 
 .single-icon 
 {
   margin-top: 65px;
+  margin-left: -30px; 
   color: #8BC34A;
 }
 
 .single-icon ul                                                                                                                                                                     
 {
   list-style: none;
-  width: 117%;
+  width: 100%;
   padding: 0px;
   text-align: center;
 }
@@ -560,9 +558,9 @@ footer
 
 footer .container 
 {
-  width: 59%;
-  margin: auto;
-  padding-top: 50px; 
+  width: 61%;
+  padding-top: 45px;
+  padding-left: 389px; 
 }
 
 .row 
@@ -649,7 +647,6 @@ footer .container
   color: #FFFFFF;	
   font-family: Roboto;	
   font-size: 24px;	
-  line-height: 32px;
   padding-left: 319px;
 }
 
@@ -871,7 +868,7 @@ footer .container
 .project img 
 {
   margin-top: 12px;
-  margin-left: -10px;
+  margin-left: -18px;
 }
 .project 
 {
