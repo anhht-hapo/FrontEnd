@@ -12,8 +12,8 @@ body {
   src: url(../font/Roboto-Light.ttf);
 }
 @font-face {
-  font-family: Roboto-Medium;
-  src: url(../font/Roboto-Medium.ttf)
+  font-family: Roboto-Regular;
+  src: url(../font/Roboto-Regular.ttf)
 }
 
 @font-face {
@@ -164,7 +164,7 @@ header
   border-radius: 100px;	
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
   color: #FFFFFF;	
-  font-family: Roboto-Medium;	
+  font-family: Roboto-Regular;	
   font-size: 18px;	
   font-weight: 500;
   letter-spacing: 1px;
@@ -357,6 +357,11 @@ h2 {
   line-height: 63px;
   margin: 0px;
 }
+.own-carousel.owl-carousel .owl-stage
+{
+display: flex;
+flex-direction: row;
+}
 
 .banner-customer .avatar-container
 {
@@ -377,14 +382,18 @@ h2 {
   margin: auto;
   height: 80px;
   width: 80px;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
 }
 
-.banner-customer .avatar-container .avatar:hover img
+.banner-customer .avatar-container .avatar:hover img,
+.banner-customer .avatar-container .avatar:hover p
 {
-  margin-top: -10px;
-  height: 100px;
-  width: 100px;
-  transition: all 0.2s;
+  max-width: 100%;
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .banner-customer .avatar-container .avatar .customer-info
@@ -396,7 +405,7 @@ h2 {
 .banner-customer .avatar-container .avatar p:first-child
 {
   color: #FFFFFF;	
-  font-family: Roboto-Medium;	
+  font-family: Roboto-Regular;	
   font-size: 13px;	
   font-weight: 300;	
   line-height: 13px;	
@@ -501,7 +510,7 @@ footer
 .single-widget h2
 {
   color: #8BC34A;	
-  font-family: Roboto-Medium;	
+  font-family: Roboto-Regular;	
   font-size: 13px;	
   font-weight: 500;	
 }
@@ -516,7 +525,7 @@ footer
 {
   margin-top: 34px;
   color: #D0D8DC;	
-  font-family: Roboto-Medium;	
+  font-family: Roboto-Regular;	
   font-size: 10px;	
                                                                                                                                                                                                                                                                                       font-weight: 500;	
 }
@@ -831,6 +840,7 @@ footer .container
   font-size: 13.2px;	
   line-height: 24px;	
   text-align: justify;
+  padding-top: 4px;
 }
 
 .member button 
