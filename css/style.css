@@ -161,8 +161,6 @@ header
 
 .button-start 
 {
-  width: 225px;
-  height: 60px;
   border-radius: 100px;	
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
   color: #FFFFFF;	
@@ -170,7 +168,8 @@ header
   font-size: 18px;	
   font-weight: 500;
   letter-spacing: 1px;
-  padding: auto;	
+  padding: 18px 50px;
+  transition: all 10s;	
   line-height: 24px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
 }
@@ -376,11 +375,12 @@ h2 {
   width: 80px;
 }
 
-.banner-customer .avatar-container .avatar img:hover
+.banner-customer .avatar-container .avatar:hover img
 {
   margin-top: -10px;
   height: 100px;
   width: 100px;
+  transition: all 0.2s;
 }
 
 .banner-customer .avatar-container .avatar .customer-info
@@ -501,7 +501,6 @@ footer
 {
   margin-top: 6px;
   width: 96px;
-  height: 22px;
 }
 
 .single-widget-main li 
